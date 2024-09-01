@@ -21,7 +21,7 @@ You can either store connection strings in an application configuration file or 
 ADO.NET connection objects have two events that you can use to retrieve informational messages from a data source or to determine if the state of a connection has changed.
 <ul>
 <li><strong>InfoMessage:</strong> Occurs when a data source returns an informational message. Informational messages are messages from a data source that do not result in an exception being thrown.</li>
-<li><strong>StateChage:</strong> Occurs when a connection changes from the closed state to the open state or from the open state to the closed state.</li>
+<li><strong>StateChange:</strong> Occurs when a connection changes from the closed state to the open state or from the open state to the closed state.</li>
 </ul>
 If an error occurs at the data source, the data provider throws an exception. However, if the data source returns an informational message, the data provider raises an InfoMessage event instead.
 </p>
@@ -34,13 +34,13 @@ The .NET Data provider for Oracle throws an OracleException when it encounters a
 The following code show how to test each step in C# code.
 <div><b>Fig 1 Running the sample, asking for a connection string.</b></div><br/>
 <img src="images/fig1.png" width="667" height="348" alt="">
-<div><b>Fig 2 </b></div><br/>
+<div><b>Fig 2 Enter a connection string and connecting to the database</b></div><br/>
 <img src="images/fig2.png" width="667" height="348" alt="">
-<div><b>Fig 3 </b></div><br/>
+<div><b>Fig 3 Creating many connections to a different datasources.</b></div><br/>
 <img src="images/fig3.png" width="667" height="348" alt="">
-<div><b>Fig 4 </b></div><br/>
+<div><b>Fig 4 Showing the exception of a connection </b></div><br/>
 <img src="images/fig4.png" width="690" height="362" alt="">
-<div><b>Fig 5 </b></div><br/>
+<div><b>Fig 5 Showing the log,this file is written with the <i>InfoMessage</i> and <i>StateChange</i> methods.</b></div><br/>
 <img src="images/fig5.png" width="667" height="348" alt="">
 
 
