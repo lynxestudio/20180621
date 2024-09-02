@@ -34,13 +34,15 @@ The .NET Data provider for Oracle throws an OracleException when it encounters a
 The following code show how to test each step in C# code.
 <div><b>Fig 1 Running the sample, asking for a connection string.</b></div><br/>
 <img src="images/fig1.png" width="667" height="348" alt="">
-<div><b>Fig 2 Enter a connection string and connecting to the database</b></div><br/>
+<div><b>Fig 2 Enter a connection string and connecting to the database.</b></div><br/>
 <img src="images/fig2.png" width="667" height="348" alt="">
 <div><b>Fig 3 Creating many connections to a different datasources.</b></div><br/>
 <img src="images/fig3.png" width="667" height="348" alt="">
-<div><b>Fig 4 Showing the exception of a connection </b></div><br/>
+<div><b>Fig 4 Showing the exception of a connection. </b></div><br/>
 <img src="images/fig4.png" width="690" height="362" alt="">
-<div><b>Fig 5 Showing the log,this file is written with the <i>InfoMessage</i> and <i>StateChange</i> methods.</b></div><br/>
+<div><b>Fig 5 Disconnecting all connections. </b></div><br/>
 <img src="images/fig5.png" width="667" height="348" alt="">
+<div><b>Fig 6 Showing the log,this file is written with the <i>InfoMessage</i> and <i>StateChange</i> methods.</b></div><br/>
+<img src="images/fig6.png" >
 
 
